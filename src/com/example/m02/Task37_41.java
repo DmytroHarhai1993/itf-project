@@ -3,7 +3,7 @@ package com.example.m02;
 public class Task37_41 {
     public static void main(String[] args) {
         //todo use english only
-       System.out.println("Equal the Strings TASK 37");
+        System.out.println("Equal the Strings TASK 37");
         System.out.println("public, public - equals " + areNamesEqual("public", "public"));
         System.out.println("public, static - equals " + areNamesEqual("public", "static"));
 
@@ -44,27 +44,11 @@ public class Task37_41 {
         return result.toUpperCase();
     }
 
-
     public static boolean isMoneyName(String name) {
         char firstLetter = name.charAt(0);
         char lastLetter = name.charAt(name.length() - 1);
         boolean isDigit = (firstLetter >= '0' && firstLetter <= '9')
-                && (lastLetter >= '0' && lastLetter <='9');
+                && (lastLetter >= '0' && lastLetter <= '9');
         return isDigit;
     }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
