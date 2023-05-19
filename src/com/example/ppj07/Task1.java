@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
-     //   task1V1();
+        task1V1();
         task1V2();
     }
 
@@ -27,15 +27,11 @@ public class Task1 {
         int max1 = scanner.nextInt();
         int max2 = scanner.nextInt();
         int temp = scanner.nextInt();
-        // добавить оператор if(max2 > max1);
-        if(temp >= max1){
+        if (temp >= max1) {
             max1 = temp;
-        }else if(temp >= max2){
+        } else if (temp >= max2) {
             max2 = temp;
         }
         System.out.println(max1 + " " + max2);
-        // Написать код:
-        // Переписать переменную temp в max1 или  max2 (или ни в олдну из них) в зависимости от значения.
     }
-
 }
